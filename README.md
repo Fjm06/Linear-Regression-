@@ -44,7 +44,8 @@ To solve this problem easily, we draw a best fit line. It is a linear line from 
 
 
 
-<img width="678" height="497" alt="image" src="https://github.com/user-attachments/assets/11e04ff8-e0aa-4be3-929b-1ac7b1b2e9cb" />
+<img width="723" height="542" alt="Screenshot 2025-08-02 230143" src="https://github.com/user-attachments/assets/7b98c837-b32f-4696-abd9-d14847fdffd7" />
+
 This is a best fit line (the red line), it does the minimum mistake in the calculations.
 We use the following eq in this calculation:
 y = mx+c

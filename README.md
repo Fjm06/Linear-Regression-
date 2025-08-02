@@ -43,7 +43,38 @@ This is called stochastic errors, due to which the data is sort of linear but no
 To solve this problem easily, we draw a best fit line. It is a linear line from the origin which aims to minimize the distance between the line and all the data points
 
 
-<img width="678" height="497" alt="image" src="https://github.com/user-attachments/assets/8a6713e2-beb2-4710-a7cf-061e3dd327f4" />
+
+<img width="678" height="497" alt="image" src="https://github.com/user-attachments/assets/11e04ff8-e0aa-4be3-929b-1ac7b1b2e9cb" />
+This is a best fit line (the red line), it does the minimum mistake in the calculations.
+We use the following eq in this calculation:
+y = mx+c
+where m is slope and c is y-intercept
+
+In 3D, we use:
+
+y = mx1+nx2+b
+OR
+
+y = β0+β1x1+ β2x2  
+
+For n-dim:
+
+y = β0+β1x1+ β2x2 +…… βnxn
+where β is called weight, tells us the weightage of each column.
+
+In multiple linear regression, we formulate the value of coefficients using the formula:
+Β = (XTX)-1 * XTY
+where X = x_train, Y = y_train
+
+Regression Metrics:
+<img width="940" height="873" alt="image" src="https://github.com/user-attachments/assets/d0eff356-d5ca-4766-9fb5-7711d5ee98c3" />
+
+
+<img width="940" height="537" alt="image" src="https://github.com/user-attachments/assets/94122b18-ce59-427c-9c34-e5c227e0e5d9" />
+
+<img width="940" height="340" alt="image" src="https://github.com/user-attachments/assets/2ef0c5e7-0cef-4535-a581-f48369a3597a" />
+
+
 
 
 
